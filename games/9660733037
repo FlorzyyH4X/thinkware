@@ -5,6 +5,9 @@ local GUI = Library.GUI(true)
 
 local Farming = GUI.Tab("Farming")
 
+local Peter = Interactables.Peter.Peter
+local MoneyBills = Interactables.MoneyBills
+
 getgenv().cashAutoCollect = false
 getgenv().cashGet = false
 
