@@ -5,6 +5,7 @@ local GUI = Library.GUI(true)
 
 local Farming = GUI.Tab("Farming")
 
+local Interactables = game:GetService("Workspace").Interactables
 local Peter = Interactables.Peter.Peter
 local MoneyBills = Interactables.MoneyBills
 
@@ -16,7 +17,7 @@ Farming.Toggle("Cash Auto-Collect", function(State)
 end, false)
 
 Farming.Toggle("Get Cash", function(State)
-    getgenv().cashGet = false
+    getgenv().cashGet = State
 end, false)
 
 game:GetService("RunService").RenderStepped:Connect(function()
