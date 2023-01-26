@@ -1,6 +1,6 @@
 --// Raise A Peter
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/FlorzyyH4X/thinkware/main/core/ui"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/FlorzyyH4X/thinkware/main/core/ui.lua"))()
 local GUI = Library.GUI(true)
 
 local Farming = GUI.Tab("Farming")
