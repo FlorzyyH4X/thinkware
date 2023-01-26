@@ -6,8 +6,4 @@ local Loaded = loadstring(game:HttpGet(ScriptURL))
 
 if Loaded then
   Loaded()
-else
-  return 1
 end
-
-return 0
