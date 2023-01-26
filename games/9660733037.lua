@@ -1,5 +1,7 @@
 --// Raise A Peter
 
+print("Test")
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/FlorzyyH4X/thinkware/main/core/ui.lua"))()
 local GUI = Library.GUI(true)
 
